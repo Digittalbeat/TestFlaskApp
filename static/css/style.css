@@ -1,0 +1,35 @@
+
+body{
+    text-align: center;
+    color: aqua;
+    background-color: black;
+}
+
+a{
+            color: aqua;
+            display: inline;
+            padding: 10px;
+            
+}
+
+a:hover {
+    color: rgb(115, 179, 55);
+    font-size: 14px;
+}
+
+.item{
+    color: rgb(253, 253, 107);
+    display: inline;
+    padding: 10px;
+}
+.items{
+    color: rgb(72, 255, 82);
+    display: inline;
+    padding: 10px;
+}
+h3{
+    color: white;
+}
+h1{
+    color: rgb(154, 253, 54);
+}

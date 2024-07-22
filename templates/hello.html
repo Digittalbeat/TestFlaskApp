@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+         <h1>HELLO FLASK</h1>
+
+         
+        
+            <a id="a"  class="a" href="{{url_for('HELLO')}}">home</a>
+            <a id="a" class="a"  href="{{url_for('About')}}">about_sallary</a>
+           
+        <h3>This is only test app. </h3>
+         <h3>FLASK APP which is reading data from SQLdb </h3> 
+         <h3>and showing them on the HTMLsite /about_sallary </h3>
+         <br><br><br>
+        
+    </header>
+
+    <section>
+        {% block content %}
+
+
+        {% endblock %}
+
+    </section>
+    <footer>
+        <p style="font-size: 10px", padding="15Px" >PRODUCED BY DIGITTAL</p>
+    </footer>
+   
+    
+    
+</body>
+</html>
